@@ -4,8 +4,15 @@ body {
     display: flex;
     justify-content: center;
 
+    
+    
+
     color: white;
     font-family: 'Inter', sans-serif;
+}
+
+#container {
+    display: flex;
 }
 
 
