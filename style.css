@@ -1,0 +1,49 @@
+body {
+    background-color: #1f242b;
+    
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#loginscreen {
+    background-color: black;
+    
+    border: 5px solid white;
+
+    width: 500px;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    
+
+
+    
+
+}
+
+#fields {
+    
+    border: 5px solid white;
+    border-radius: 10px;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    text-align: center;
+
+    padding: 10px;
+    
+
+
+}
+
+.forgot-password {
+    color: white;
+}
+
