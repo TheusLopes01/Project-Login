@@ -5,19 +5,20 @@ body {
     justify-content: center;
 
     
-    
-
     color: black;
+
     font-family: 'Inter', sans-serif;
+    
 }
 
 #container {
     display: flex;
+    
 }
 
 
-#loginscreen {
-    background-color: black;
+#formulario {
+    background-color: (1, 159, 244);
     
     
 
@@ -35,41 +36,65 @@ body {
 
 #fields {
     background-color: white;
-    border: 5px solid white;
     border-radius: 15px;
 
     align-items: center;
     align-content: center;
     align-self: center;
 
-    text-align: center;
-
-    padding: 20px;
     
 
+    padding: 20px;
 
-}
 
-.forgot-password {
-    color: black;
-}
-
-.cadastrar {
-    color: black;
 }
 
 button {
+    display: flex;
+    position: relative;
+    left: 155px;
+
+    border-radius: 10px;
+    height: 30px;
+
+}
+
+.back-to-login {
+    display: flex;
+    justify-content: center;
+    
+    color: black;
+
+
+
+}
+
+#name {
     border-radius: 10px;
     height: 30px;
 }
 
-#email {
+#last-name {
     border-radius: 10px;
     height: 30px;
 }
 
-#password {
+#cpf {
     border-radius: 10px;
     height: 30px;
 }
 
+#telephone {
+    border-radius: 10px;
+    height: 30px;
+}
+
+#cellphone {
+    border-radius: 10px;
+    height: 30px;
+}
+
+#birth {
+    border-radius: 10px;
+    height: 30px;
+}
