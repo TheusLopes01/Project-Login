@@ -61,3 +61,11 @@ button {
     height: 30px;
 }
 
+
+@media only screen and (max-width: 600px) {
+    #forgot-my-password {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
