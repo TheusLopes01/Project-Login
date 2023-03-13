@@ -73,3 +73,34 @@ button {
     height: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    /* Adjust layout for small screens */
+    #container {
+        flex-direction: column;
+    }
+
+    #loginscreen {
+        width: 100%;
+        height: auto;
+    }
+
+    #fields {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust layout for extra small screens */
+    #fields {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    #email, #password {
+        font-size: 0.8rem;
+    }
+}
+
