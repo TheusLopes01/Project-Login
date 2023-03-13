@@ -98,3 +98,34 @@ button {
     border-radius: 10px;
     height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    #formulario {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #formulario {
+      max-width: 300px;
+    }
+  
+    #fields {
+      padding: 10px;
+    }
+  
+    #name,
+    #last-name,
+    #cpf,
+    #telephone,
+    #cellphone,
+    #birth {
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    button {
+      height: 25px;
+      font-size: 14px;
+    }
+  }
